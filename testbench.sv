@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-//`include "halfadder.sv"
+`include "halfadder.sv"
 
 module testbench();
 
@@ -23,7 +23,6 @@ initial begin
     // Initialize testbench variables
     A = 1'b0;
     B = 1'b0;
-
 end
 
 // Write Test Stimulus
